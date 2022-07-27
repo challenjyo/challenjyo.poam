@@ -3,19 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title>걱정몽돌</title>
-        <style>
-            body {background-image: url(https://i.pinimg.com/564x/7f/ee/e4/7feee40354116bf025367d6b2461c01b.jpg);}
-        </style>
     </head>
     <body>
         <input type="text" style="box-sizing: border-box;
+        width: 300px;
+        height: 300px;
         position: absolute;
-        width: 500px;
-        height: 500px;
-        left: 50%;
-        margin-left: -250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 50%;
-        margin-top: -250px;
+        left: 50%;
+        margin-top: -150px;
+        margin-left: -150px;
         border-radius: 50%;
         background: #c3c3c3;
         border: 8px solid #c3c3c3;
@@ -24,6 +24,16 @@
         text-align: center;"
         onchange="alert('파도를 불러!')">
         <input type="button" value="파도 부르기"
-        onclick="location.href='wave.html'">
+        onclick="location.href='wave.html'"
+        style="
+        width: 100px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 200px;">
     </body>
 </html>
